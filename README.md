@@ -1,9 +1,10 @@
-# Tyler Cloutier's dotfiles
-Kaizen and Kaikaku
+# Kyle McGill's dotfiles
+
+Thank you to [@cloutiertyler](https://github.com/cloutiertyler) for letting me shamelessly fork your dotfiles repository. 
 
 ## Installation
 ```
-git clone https://github.com/cloutiertyler/dotfiles.git ~/.dotfiles && ~/.dotfiles/install
+git clone https://github.com/kmcgill7/dotfiles.git ~/.dotfiles && ~/.dotfiles/install
 ```
 The procedure will:
 * Install the dotfiles in your home
@@ -38,9 +39,7 @@ You can make local customizations for some programs by editing these files:
 * `vim` : `~/.vimrc_local`
 
 ## License
-Copyright (c) 2017 Tyler Cloutier. Released under the MIT License. See
+Copyright (c) 2017 Kyle McGill. Released under the MIT License. See
 [LICENSE][license] for details.
 
 [license]: LICENSE
-
-Thank you to [@mlongob](https://github.com/mlongob) for the starting point and the inspiration.
