@@ -74,6 +74,9 @@ Plugin 'bling/vim-airline'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#hunks#non_zero_only = 1 " git gutter
 
+" typchecking and autocomplete
+Plugin 'Valloric/YouCompleteMe'
+
 " Makes GVim colorscheme available in the terminal (regular vim)
 Plugin 'godlygeek/csapprox'
 
