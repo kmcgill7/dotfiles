@@ -46,6 +46,9 @@ Plugin 'HerringtonDarkholme/yats.vim'
 " Syntax for Scala
 Plugin 'derekwyatt/vim-scala'
 
+" Syntax for pug
+Plugin 'digitaltoad/vim-pug'
+
 " Diff signs in gutter for Git index/working diffs
 Plugin 'airblade/vim-gitgutter'
 let g:gitgutter_realtime = 0
