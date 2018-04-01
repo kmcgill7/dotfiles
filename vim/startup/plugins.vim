@@ -41,7 +41,7 @@ Plugin 'elzr/vim-json'
 Plugin 'mxw/vim-jsx'
 
 " Syntax for TS
-Plugin 'HerringtonDarkholme/yats.vim'
+Plugin 'leafgarland/typescript-vim'
 
 " Syntax for Scala
 Plugin 'derekwyatt/vim-scala'
