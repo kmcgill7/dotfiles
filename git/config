@@ -1,0 +1,21 @@
+[user]
+	name = Kyle McGill
+	email = kylemcgill18@gmail.com
+[alias]
+	co = checkout
+	br = branch
+	s = status
+	a = add .
+	cm = commit -m
+	lola = git log --graph --decorate --pretty=oneline --abbrev-commit --all
+	lol = git log --graph --decorate --pretty=oneline --abbrev-commit --all
+	discard = checkout -- .
+	unstage = reset HEAD --
+	p = pull
+	pu = push
+	lola = git log --graph --decorate --pretty=oneline --abbrev-commit --all
+	lol = git log --graph --decorate --pretty=oneline --abbrev-commit
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+[push]
+	default = simple

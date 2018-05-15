@@ -10,6 +10,9 @@
 
     ~/.vim: vim/
     ~/.vimrc: vimrc
+    ~/.profile: profile
+    ~/.gitconfig: git/config
+    ~/.git-completion.bash: git/git-completion.bash
 
 - shell:
     - mkdir -p ~/.vim/swap ~/.vim/backup ~/.vim/undo
