@@ -13,6 +13,9 @@ Plugin 'gmarik/Vundle.vim'
 " Swift highlighting
 Plugin 'keith/swift.vim'
 
+" C++ highlighting
+Plugin 'octol/vim-cpp-enhanced-highlight'
+
 " Smarter '.'
 Plugin 'tpope/vim-repeat'
 
