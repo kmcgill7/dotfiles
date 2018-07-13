@@ -85,6 +85,8 @@ let g:airline#extensions#hunks#non_zero_only = 1 " git gutter
 
 " typchecking and autocomplete
 Plugin 'Valloric/YouCompleteMe'
+let g:ycm_confirm_extra_conf = 0
+let g:ycm_autoclose_preview_window_after_insertion = 1
 
 " Makes GVim colorscheme available in the terminal (regular vim)
 Plugin 'godlygeek/csapprox'
