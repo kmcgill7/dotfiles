@@ -41,6 +41,7 @@ Plugin 'gregsexton/gitv'
 Plugin 'elzr/vim-json'
 
 " Syntax for JS ES6 and JSX
+Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 
 " Syntax for TS
