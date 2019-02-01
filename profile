@@ -9,6 +9,8 @@ alias c='clear'
 alias openPorts='sudo lsof -i | grep LISTEN'
 alias prunedocker='docker rmi $(docker images --quiet --filter "dangling=true")'
 
+alias runlocal='NODE_ENV=test node .'
+
 source ~/.git-completion.bash
 
 export NVM_DIR="$HOME/.nvm"
