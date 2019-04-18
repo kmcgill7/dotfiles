@@ -2,6 +2,7 @@
 	name = Kyle McGill
 	email = kylemcgill18@gmail.com
 [alias]
+	f = fetch
 	co = checkout
 	br = branch
 	s = status
@@ -12,7 +13,6 @@
 	discard = checkout -- .
 	unstage = reset HEAD --
 	p = pull
-	pu = push
 	lola = git log --graph --decorate --pretty=oneline --abbrev-commit --all
 	lol = git log --graph --decorate --pretty=oneline --abbrev-commit
 	lol = log --graph --decorate --pretty=oneline --abbrev-commit --all
