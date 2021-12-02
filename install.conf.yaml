@@ -11,6 +11,8 @@
     ~/.vim: vim/
     ~/.vimrc: vimrc
     ~/.profile: profile
+    ~/.zprofile: zprofile
+    ~/.zsh: zsh/
     ~/.tern-project: tern-project
     ~/.gitconfig: git/config
     ~/.git-completion.bash: git/git-completion.bash
