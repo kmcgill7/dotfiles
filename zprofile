@@ -12,3 +12,5 @@ alias prunedocker='docker rmi $(docker images --quiet --filter "dangling=true")'
 zstyle ':completion:*:*:git:*' script ~/.git-completion.bash
 
 fpath=(~/.zsh $fpath)
+
+path+=('/usr/local/share/dotnet')

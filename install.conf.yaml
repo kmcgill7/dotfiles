@@ -10,7 +10,6 @@
 
     ~/.vim: vim/
     ~/.vimrc: vimrc
-    ~/.profile: profile
     ~/.zprofile: zprofile
     ~/.zsh: zsh/
     ~/.tern-project: tern-project
