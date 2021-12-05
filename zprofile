@@ -9,8 +9,11 @@ alias c='clear'
 alias openPorts='sudo lsof -i | grep LISTEN'
 alias prunedocker='docker rmi $(docker images --quiet --filter "dangling=true")'
 
-zstyle ':completion:*:*:git:*' script ~/.git-completion.bash
+autoload -Uz compinit && compinit
 
 fpath=(~/.zsh $fpath)
 
-path+=('/usr/local/share/dotnet')
+bindkey "^A" vi-beginning-of-line
+bindkey "^E" vi-end-of-line
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
