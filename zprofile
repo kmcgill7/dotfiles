@@ -10,10 +10,16 @@ alias openPorts='sudo lsof -i | grep LISTEN'
 alias prunedocker='docker rmi $(docker images --quiet --filter "dangling=true")'
 
 autoload -Uz compinit && compinit
-
 fpath=(~/.zsh $fpath)
+zstyle ':completion:*:*:git:*' script ~/.git-completion.bash
 
 bindkey "^A" vi-beginning-of-line
 bindkey "^E" vi-end-of-line
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
+
+# auto-completion
+if [ -f /opt/local/etc/profile.d/bash_completion.sh ]; then
+  . /opt/local/etc/profile.d/bash_completion.sh
+fi
+
